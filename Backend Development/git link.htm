@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="html-devise-layout ui-neutral" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Sign in · GitLab</title>
+<script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+window.gon={};
+//]]>
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/application-c5b218a08f9665ddcd32f6922a69c5714e44a6e528155b0069adf814e9428d93.css" media="all" />
+<link rel="stylesheet" href="/assets/page_bundles/login-d3d6bc53e95a451be9ab770d7a515d686002ad44c6493bfac5caab63ebe9db94.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/commit_description-5653213c51a6c90453a926cfc5e5e71ad9b41881a20a408bef8a303cf175435c.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/work_items-4dbc32cca030ff7727ba26485149518edc039e72f1577ef00291805720518949.css" media="all" />
+<link rel="stylesheet" href="/assets/application_utilities-d9a7b82eeacf5bfb8ceea81780b391ff56bc5b4332509ae17839f3590bce0ae9.css" media="all" />
+<link rel="stylesheet" href="/assets/tailwind-2d878e2d65e7b9b328e731910d23e0d8f355f052384f8af402b729cd18316e55.css" media="all" />
+
+
+<link rel="stylesheet" href="/assets/fonts-fae5d3f79948bd85f18b6513a025f863b19636e85b09a1492907eb4b1bb0557b.css" media="all" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-e08c45a78f4446ec6c4226adb581d4482911bd7c85b47b7e7c003112b0c26274.css" media="all" />
+
+<script src="/assets/webpack/runtime.349be6c2.bundle.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/main.2ef6b251.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/tracker.63b08fe7.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/analytics.117182b3.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplow.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true}
+
+gl = window.gl || {};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-0-10","data":{"environment":"production","source":"gitlab-rails","plan":null,"extra":{},"user_id":null,"is_gitlab_team_member":null,"namespace_id":null,"project_id":null,"feature_enabled_by_namespace_ids":null,"context_generated_at":"2024-06-12T16:49:00.178Z"}}
+gl.snowplowPseudonymizedPageUrl = "https://gitlab.com/users/sign_in";
+gl.maskedDefaultReferrerUrl = "https://gitlab.com/";
+
+
+//]]>
+</script>
+<link rel="preload" href="/assets/application_utilities-d9a7b82eeacf5bfb8ceea81780b391ff56bc5b4332509ae17839f3590bce0ae9.css" as="style" type="text/css" nonce="iS+tEeuK043GujcuJb3NVg==">
+<link rel="preload" href="/assets/application-c5b218a08f9665ddcd32f6922a69c5714e44a6e528155b0069adf814e9428d93.css" as="style" type="text/css" nonce="iS+tEeuK043GujcuJb3NVg==">
+<link rel="preload" href="/assets/highlight/themes/white-e08c45a78f4446ec6c4226adb581d4482911bd7c85b47b7e7c003112b0c26274.css" as="style" type="text/css" nonce="iS+tEeuK043GujcuJb3NVg==">
+<link crossorigin="" href="https://snowplow.trx.gitlab.net" rel="preconnect">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-1e0a5107ea3bbd4be93e8ad2c503467e43166cd37e4293570b490e0812ede98b.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-Italic-38eaf1a569a54ab28c58b92a4a8de3afb96b6ebc250cf372003a7b38151848cc.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-08d2c5e8ff8fd3d2d6ec55bc7713380f8981c35f9d2df14e12b835464d6e8f23.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-Italic-38e58d8df29485a20c550da1d0111e2c2169f6dcbcf894f2cd3afbdd97bcc588.woff2" rel="preload">
+<link rel="preload" href="/assets/fonts-fae5d3f79948bd85f18b6513a025f863b19636e85b09a1492907eb4b1bb0557b.css" as="style" type="text/css" nonce="iS+tEeuK043GujcuJb3NVg==">
+
+
+
+<script src="/assets/webpack/sentry.c7c2c087.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+
+<script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  'analytics_storage': 'granted',
+  'ad_storage': 'granted',
+  'functionality_storage': 'granted',
+  'wait_for_update': 500
+});
+
+gtag('consent', 'default', {
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'functionality_storage': 'denied',
+  'region': ['CA-QC', 'CO', 'EU', 'GB', 'IS', 'KR', 'LI', 'NO', 'PE', 'RU'],
+  'wait_for_update': 500
+});
+
+ window.geofeed = (options) => {
+    dataLayer.push({
+      'event': 'OneTrustCountryLoad',
+      'oneTrustCountryId': options.country.toString(),
+      'oneTrustStateId': options.state?.toString()
+    })
+  }
+
+  const json = document.createElement('script');
+  json.setAttribute('src', 'https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location/geofeed');
+  document.head.appendChild(json);
+
+//]]>
+</script><script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;j.setAttribute('nonce',
+'b6ixdwC2OGYZqtl0Y0ErtQ==');f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NJXWQL');
+
+
+//]]>
+</script>
+<!-- OneTrust -->
+<script src="https://cdn.cookielaw.org/consent/7f944245-c5cd-4eed-a90e-dd955adfdd08/OtAutoBlock.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+const oneTrustScript = document.createElement('script');
+oneTrustScript.src = 'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+oneTrustScript.dataset.domainScript = '7f944245-c5cd-4eed-a90e-dd955adfdd08';
+oneTrustScript.nonce = 'b6ixdwC2OGYZqtl0Y0ErtQ=='
+oneTrustScript.charset = 'UTF-8';
+oneTrustScript.defer = true;
+document.head.appendChild(oneTrustScript);
+
+function OptanonWrapper() { }
+
+
+//]]>
+</script>
+
+<script src="/assets/webpack/commons-pages.admin.abuse_reports.show-pages.dashboard.issues-pages.dashboard.milestones.show-pages.-6eb574d2.b3233192.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.abuse_reports.show-pages.dashboard.issues-pages.groups.boards-pages.groups.epic_-702584b3.811e275d.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.abuse_reports.show-pages.dashboard.issues-pages.groups.boards-pages.groups.epic_-67fb21ec.57daba93.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.groups.analytics.dashboards-pages.groups.analytics.dashboards.value_streams_dashboard--844b062c.db4f9484.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.groups.new-pages.import.gitlab_projects.new-pages.import.manifest.new-pages.projects.n-a0973272.4b34fb67.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.search.show-super_sidebar.28a59423.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/super_sidebar.fca21737.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.sessions-pages.sessions-pages.sessions.new-pages.subscriptions.trials-pages.subs-1ee0db3e.11923d31.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/commons-pages.groups.sso-pages.registrations.new-pages.sessions.new-pages.trial_registrations.new.4b01af74.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<script src="/assets/webpack/pages.sessions.new.c1555886.chunk.js" defer="defer" nonce="b6ixdwC2OGYZqtl0Y0ErtQ=="></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="DkCpGX_WeuyskrhHcg5MAceCKHfZQ5a6F7Yhr_C7vgR8D3Pvv2DkQZtRkm987EC_pNUwi13G5mRtVZKH_1sFvQ" />
+<meta name="csp-nonce" content="b6ixdwC2OGYZqtl0Y0ErtQ==" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="GitLab.com" name="description">
+<meta content="#ececef" name="theme-color">
+</head>
+
+<body class="gl-h-full login-page gl-browser-firefox gl-platform-windows" data-page="sessions:new" data-testid="login-page">
+
+<script nonce="b6ixdwC2OGYZqtl0Y0ErtQ==">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isFirefox":true,"isWindows":true};
+
+
+//]]>
+</script>
+
+
+<div class="gl-h-full gl-display-flex gl-flex-wrap">
+<div class="container gl-align-self-center">
+<div class="content">
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div class="gl-alert flash-alert gl-alert-danger" data-testid="alert-danger" role="alert">
+<div class="gl-alert-icon-container">
+<svg class="s16 gl-alert-icon gl-alert-icon-no-title" data-testid="error-icon"><use href="/assets/icons-0b41337f52be73f7bbf9d59b841eb98a6e790dfa1a844644f120a80ce3cc18ba.svg#error"></use></svg>
+</div>
+<button class="gl-button btn btn-icon btn-sm btn-default btn-default-tertiary js-close gl-dismiss-btn " aria-label="Dismiss" type="button"><svg class="s16 gl-icon gl-button-icon " data-testid="close-icon"><use href="/assets/icons-0b41337f52be73f7bbf9d59b841eb98a6e790dfa1a844644f120a80ce3cc18ba.svg#close"></use></svg>
+
+</button>
+<div class="gl-alert-content" role="alert">
+<div class="gl-alert-body">
+You need to sign in or sign up before continuing.
+</div>
+</div>
+</div>
+<div id="js-global-alerts"></div>
+</div>
+
+<div class="gl-my-5">
+<div class="col-sm-12 gl-text-center">
+<img alt="GitLab.com" class="gl-invisible gl-h-10 js-portrait-logo-detection lazy" data-src="/assets/logo-911de323fa0def29aaf817fca33916653fc92f3ff31647ac41d2c39bbe243edb.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<h1 class="mb-3 gl-font-size-h2">
+GitLab.com
+</h1>
+</div>
+<div class="gl-w-full gl-sm-w-half gl-ml-auto gl-mr-auto bar">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJXWQL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="js-non-oauth-login">
+<form class="gl-show-field-errors js-arkose-labs-form" aria-live="assertive" data-testid="sign-in-form" action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8Aml9HdYnOdbraTyNTcyWd4ywGATIU_Avr7hzd48PoGCRn8Ct-4CSmxujto71T7nvWXYnJekPx7EXVLl0dyFOA" autocomplete="off" /><div class="form-group">
+<label for="user_login">Username or primary email</label>
+<input class="form-control gl-form-input js-username-field" autocomplete="username" autofocus="autofocus" autocapitalize="off" autocorrect="off" required="required" title="This field is required." data-testid="username-field" type="text" name="user[login]" id="user_login" />
+</div>
+<div class="form-group">
+<label for="user_password">Password</label>
+<input class="form-control gl-form-input js-password" data-id="user_password" data-name="user[password]" data-testid="password-field" type="password" name="user[password]" id="user_password" />
+<div class="form-text gl-text-right">
+<a href="/users/password/new">Forgot your password?</a>
+</div>
+</div>
+<div class="form-group">
+</div>
+<div class="gl-mb-3">
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input name="user[remember_me]" type="hidden" value="0" autocomplete="off" /><input autocomplete="off" class="custom-control-input" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+<label class="custom-control-label" for="user_remember_me"><span>Remember me</span></label>
+</div>
+
+</div>
+<button class="gl-button btn btn-block btn-md btn-confirm js-sign-in-button" data-testid="sign-in-button" type="submit"><span class="gl-button-text">
+Sign in
+
+</span>
+
+</button></form>
+</div>
+<div class="gl-mt-3">
+By signing in you accept the <a href='/-/users/terms' target='_blank' rel='noreferrer noopener'>Terms of Use and acknowledge the Privacy Statement and Cookie Policy</a>.
+</div>
+<div class="gl-mt-3 gl-text-center">
+Don&#39;t have an account yet?
+<a data-testid="register-link" data-track-action="click_register_from_sign_in_page" data-track-label="free_registration" href="/users/sign_up">Register now</a>
+</div>
+<div class="gl-display-flex gl-align-items-center gl-gap-5" data-testid="divider">
+<hr class="gl-flex-grow-1 gl-border-gray-100">
+or sign in with
+<hr class="gl-flex-grow-1 gl-border-gray-100">
+</div>
+
+<div class="gl-mt-5 gl-text-center gl-display-flex gl-flex-direction-column gl-gap-3 js-oauth-login">
+<form class="button_to" method="post" action="/users/auth/google_oauth2"><button class="gl-button btn btn-block btn-md btn-default " type="submit"><span class="gl-button-text">
+<img alt="Google" title="Sign in with Google" class="gl-button-icon lazy" data-src="/assets/auth_buttons/google_64-9ab7462cd2115e11f80171018d8c39bd493fc375e83202fbb6d37a487ad01908.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<span class="gl-button-text">
+Google
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="ckGdS3xN8u3X4Fg8SXw8IzV1vKEkX2wzQa9B99MCkLUADke9vPtsQOAjchRHnjCdViKkXaDaHO07TPLf3OIrDA" autocomplete="off" /></form>
+<form class="button_to" method="post" action="/users/auth/github"><button class="gl-button btn btn-block btn-md btn-default " data-testid="github-login-button" type="submit"><span class="gl-button-text">
+<img alt="GitHub" title="Sign in with GitHub" class="gl-button-icon lazy" data-src="/assets/auth_buttons/github_64-84041cd0ea392220da96f0fb9b9473c08485c4924b98c776be1bd33b0daab8c0.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<span class="gl-button-text">
+GitHub
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="FP-CKyy9vLRRhNByAQ9AG9avl--rEjaG5fQVKQMv3EJmsFjd7AsiGWZH-loP7UyltfiPEy-XRlifF6YBDM9n-w" autocomplete="off" /></form>
+<form class="button_to" method="post" action="/users/auth/bitbucket"><button class="gl-button btn btn-block btn-md btn-default " type="submit"><span class="gl-button-text">
+<img alt="Bitbucket" title="Sign in with Bitbucket" class="gl-button-icon lazy" data-src="/assets/auth_buttons/bitbucket_64-daa496030c0c290748e3c2e50f7464d2f5de0e019cce728930e0508a6dac815c.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<span class="gl-button-text">
+Bitbucket
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="jDigeIVRcDvfGitzG06t1oT9r-G10y1jpST45rJWwQH-d3qORefulujZAVsVrKFo56q3HTFWXb3fx0vOvbZ6uA" autocomplete="off" /></form>
+<form class="button_to" method="post" action="/users/auth/salesforce"><button class="gl-button btn btn-block btn-md btn-default " type="submit"><span class="gl-button-text">
+<span class="gl-button-text">
+Salesforce
+</span>
+
+</span>
+
+</button><input type="hidden" name="authenticity_token" value="JN-tEoNwVMfMSj9tJ_hfo7C11J68y5S_2UZUvzmg1DpWkHfkQ8bKavuJFUUpGlMd0-LMYjhO5GGjpeeXNkBvgw" autocomplete="off" /></form>
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input type="checkbox" name="js-remember-me-omniauth" id="js-remember-me-omniauth" class="custom-control-input" />
+<label class="custom-control-label" for="js-remember-me-omniauth"><span>Remember me
+</span></label>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="footer-container gl-w-full gl-align-self-end">
+<hr class="gl-m-0">
+<div class="container gl-py-5 gl-display-flex gl-justify-content-space-between gl-align-items-flex-start">
+<div class="gl-hidden md:gl-flex gl-gap-5 gl-flex-wrap">
+<a href="/explore">Explore</a>
+<a href="/help">Help</a>
+<a href="https://about.gitlab.com">About GitLab</a>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" href="https://forum.gitlab.com">Community forum</a>
+</div>
+<button class="gl-button btn btn-sm btn-default btn-default-tertiary ot-sdk-show-settings" type="button"><span class="gl-button-text">
+Cookie Preferences
+
+</span>
+
+</button><div class="js-language-switcher" data-locales="[{&quot;value&quot;:&quot;en&quot;,&quot;percentage&quot;:100,&quot;text&quot;:&quot;English&quot;},{&quot;value&quot;:&quot;ja&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;日本語&quot;},{&quot;value&quot;:&quot;fr&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;français&quot;},{&quot;value&quot;:&quot;de&quot;,&quot;percentage&quot;:99,&quot;text&quot;:&quot;Deutsch&quot;},{&quot;value&quot;:&quot;zh_TW&quot;,&quot;percentage&quot;:98,&quot;text&quot;:&quot;繁體中文 (台灣)&quot;},{&quot;value&quot;:&quot;zh_CN&quot;,&quot;percentage&quot;:92,&quot;text&quot;:&quot;简体中文&quot;}]"></div>
+
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
